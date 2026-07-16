@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+
+#generate{
+    font-size: 2.5em;
+    border-radius: 10px;
+    background-color: rgb(246, 127, 0);
+}
