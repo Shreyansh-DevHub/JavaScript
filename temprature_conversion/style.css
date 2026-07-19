@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(181, 202, 220);
+}
+
+#lab1{
+    color: blue;
+    padding: 10px 10px;
+}
+
+
+
+
+#form{
+    text-align: center;
+    border-color: black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    max-width:  350px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 5px 5px 15px hsla(0 , 0%, 0%, 0.3) ;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;   
+}
+
+
+#submit{
+    margin: 15px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: rgb(42, 90, 203);
+    transition: 0.5s;
+}
+
+#submit:hover{
+    background-color: rgb(28, 170, 202);
+}
+
+
+#temprature{
+    width: 50%;
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 2em;
+    border-radius: 5px;
+    border: 2px solid;
+    margin-bottom: 15px;
+
+}
