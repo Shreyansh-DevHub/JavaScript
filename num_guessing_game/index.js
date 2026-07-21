@@ -5,7 +5,7 @@ let attempts = 0
 let running = true
 
 while(running){
-    let guess = window.prompt('guess the number between , ${min} - ${max}');
+    let guess = window.prompt(`guess the number between , ${min} - ${max}`);
     guess = Number(guess);
 
     if(isNaN(guess)){
@@ -23,7 +23,7 @@ while(running){
             window.alert("answer too high")
         }
         else{
-            window.alert('your answer is correct the answer was ${answer} and no. of attempts were ${attempts}');
+            window.alert(`your answer is correct the answer was ${answer} and no. of attempts were ${attempts}`);
             running = false;
         }
     }

@@ -1,0 +1,54 @@
+#container{
+    text-align: center;
+}
+
+#tag1{
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: burlywood;
+}
+#input{
+    border-radius: 5px;
+    border-color: aqua;
+    border-style: groove;
+    text-align: center;
+    font-size: 2rem;
+    width: 150px;
+    margin: 25px;
+}
+button{
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: burlywood;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+    border-color: brown;
+}
+
+button:hover{
+    background-color: chocolate;
+}
+
+button:active{
+    background-color: brown;
+}
+
+#rolled_value{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 25px;
+}
+#rolled_img img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+h1{
+    color: burlywood;
+    border-color: black;
+    border-radius: 5px;
+    border: 2px 2px;
+}
