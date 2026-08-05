@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    text-align: center;
+    
+}
+
+#main{
+    background-color: rgb(132, 132, 222);
+    border-radius: 50px;
+    padding: 30px;
+    border: 5px solid;
+    color: blueviolet;
+}
+
+#timer{
+    font-size: 50px;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.777);
+    margin-bottom: 30px;
+}
+
+#resetbtn{
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: burlywood;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+    border-color: brown;
+}
+
+#resetbtn:hover{
+    background-color: chocolate;
+}
+
+#resetbtn:active{
+    background-color: brown;
+}
+
+
+
+
+
+
+
+#startbtn{
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: burlywood;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+    border-color: brown;
+}
+
+#startbtn:hover{
+    background-color: chocolate;
+}
+
+#startbtn:active{
+    background-color: brown;
+}
+
+
+#stopbtn{
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: burlywood;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+    border-color: brown;
+}
+
+#stopbtn:hover{
+    background-color: chocolate;
+}
+
+#stopbtn:active{
+    background-color: brown;
+}
+
+
