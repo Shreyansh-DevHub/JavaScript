@@ -1,7 +1,7 @@
 # JavaScript Phase — Complete ✅
 
 This repo marks the end of Phase 1 (JavaScript fundamentals) in my
-JavaScript → React roadmap toward building cross-platform
+JavaScript roadmap toward building cross-platform
 apps (web, mobile, desktop).
 
 ## What this repo covers
@@ -33,7 +33,6 @@ functions, DOM manipulation, event handling, and working with APIs —
 
 - [x] JavaScript fundamentals
 - [x] Intermediate JS (arrays, objects, async)
-- [ ] React
 
 ## About Me
 
