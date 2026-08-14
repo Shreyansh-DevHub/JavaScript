@@ -1,24 +1,39 @@
-# JavaScript
+# JavaScript Phase — Complete ✅
 
-Part of my structured JavaScript → TypeScript → React learning path, working toward building cross-platform apps (web, mobile, desktop).
+This repo marks the end of Phase 1 (JavaScript fundamentals) in my
+JavaScript → React roadmap toward building cross-platform
+apps (web, mobile, desktop).
 
-This repo tracks my JS practice — small, scoped programs as I work through core concepts before moving on to TypeScript and React.
+## What this repo covers
 
-## Projects
+Small, scoped programs written to build core JS fluency — syntax,
+functions, DOM manipulation, event handling, and working with APIs —
+
+## Projects built
 
 | Folder | Description |
 |---|---|
-| [`project_basics`](./project_basics) | Fundamentals — syntax, variables, functions, and core JS concepts |
-| [`counter_program`](./counter_program) | A simple counter app — DOM manipulation and event handling |
-| [`randomNUM_generator`](./randomNUM_generator) | Random number generator |
+| `project_basics` | Fundamentals — syntax, variables, functions, and core JS concepts |
+| `counter_program` | A simple counter app — DOM manipulation and event handling |
+| `randomNUM_generator` | Random number generator |
+| `random_pass_gen` | Random password generator |
+| `num_guessing_game` | Number guessing game |
+| `rock-paper-scissors` | Rock paper scissors game |
+| `Array Shuffle (Fisher-Yates Algorithm)` | Array shuffling using the Fisher-Yates algorithm |
+| `Dice_roller` | Dice roller app |
+| `calculator` | Basic calculator |
+| `image_slider` | Image slider/carousel |
+| `live_clock` | Live clock |
+| `stopwatch` | Stopwatch |
+| `temprature_conversion` | Temperature conversion app |
+| `api_integration` | Working with external APIs |
+| `important_learnings` | Notes and practice on core concepts |
 
-## Roadmap
+## Roadmap status
 
 - [x] JavaScript fundamentals
-- [ ] Intermediate JS (arrays, objects, async)
-- [ ] TypeScript
+- [x] Intermediate JS (arrays, objects, async)
 - [ ] React
-- [ ] React Native / Electron (mobile & desktop)
 
 ## About Me
 
