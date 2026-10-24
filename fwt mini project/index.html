@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FWT Mini Project - fourteen beginner JavaScript projects.">
+    <title>FWT Mini Project | 14 JavaScript Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <a class="brand" href="#top"><span class="brand-mark">&lt;/&gt;</span> FWT<span>MINI PROJECT</span></a>
+            <a class="nav-link" href="#projects">View projects ↓</a>
+        </nav>
+        <div class="hero-content container" id="top">
+            <div class="hero-copy">
+                <p class="eyebrow">FRONTEND WEB TECHNOLOGY · COLLEGE SUBMISSION</p>
+                <h1>My JavaScript<br><em>project collection.</em></h1>
+                <p class="intro">Fourteen small projects made while learning JavaScript. Each project uses simple HTML, CSS, and JavaScript.</p>
+                <a class="primary-button" href="#projects">See all projects <span>→</span></a>
+            </div>
+            <div class="hero-art" aria-label="Eight interactive JavaScript projects">
+                <div class="orb orb-one"></div>
+                <div class="orb orb-two"></div>
+                <div class="code-card">
+                    <span class="code-line pink">const</span> projects = <span class="code-line blue">14</span>;<br>
+                    <span class="code-line pink">while</span> (learning) {<br>
+                    &nbsp;&nbsp;build();<br>
+                    &nbsp;&nbsp;grow<span class="code-line pink">++</span>;<br>
+                    }
+                </div>
+                <div class="floating-label label-one">DOM</div>
+                <div class="floating-label label-two">JS</div>
+            </div>
+        </div>
+        <div class="hero-footer container">
+            <span><strong>14</strong> projects included</span>
+            <span><strong>01</strong> simple website</span>
+            <span><strong>100%</strong> JavaScript</span>
+        </div>
+    </header>
+
+    <main class="container" id="projects">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">THE COLLECTION</p>
+                <h2>Fourteen projects, <em>one page.</em></h2>
+            </div>
+            <p class="section-note">Click the buttons and try each project. These examples show the basics of DOM manipulation, functions, events, and arrays.</p>
+        </div>
+
+        <section class="project-grid" aria-label="Interactive projects">
+            <article class="project-card featured" id="calculator-card">
+                <div class="card-top"><span class="project-number">01</span><span class="tag">UTILITY</span></div>
+                <h3>Quick calculator</h3>
+                <p>Perform everyday arithmetic with a clean, keyboard-friendly calculator.</p>
+                <div class="calculator">
+                    <input id="calc-display" class="calc-display" type="text" value="0" readonly aria-label="Calculator display">
+                    <div class="calc-keys">
+                        <button data-calc="clear" class="key muted">AC</button><button data-calc="back" class="key muted">⌫</button><button data-calc="/" class="key operator">÷</button><button data-calc="*" class="key operator">×</button>
+                        <button data-calc="7" class="key">7</button><button data-calc="8" class="key">8</button><button data-calc="9" class="key">9</button><button data-calc="-" class="key operator">−</button>
+                        <button data-calc="4" class="key">4</button><button data-calc="5" class="key">5</button><button data-calc="6" class="key">6</button><button data-calc="+" class="key operator">+</button>
+                        <button data-calc="1" class="key">1</button><button data-calc="2" class="key">2</button><button data-calc="3" class="key">3</button><button data-calc="=" class="key equals">=</button>
+                        <button data-calc="0" class="key wide">0</button><button data-calc="." class="key">.</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card" id="counter-card">
+                <div class="card-top"><span class="project-number">02</span><span class="tag">DOM</span></div>
+                <h3>Counter</h3>
+                <p>A simple example of state, events, and live DOM updates.</p>
+                <div class="counter-output" id="counter-value">0</div>
+                <div class="button-row"><button class="small-button" id="counter-minus">− Decrease</button><button class="small-button accent" id="counter-plus">Increase +</button></div>
+                <button class="text-button" id="counter-reset">Reset counter ↺</button>
+            </article>
+
+            <article class="project-card" id="stopwatch-card">
+                <div class="card-top"><span class="project-number">03</span><span class="tag">TIME</span></div>
+                <h3>Stopwatch</h3>
+                <p>Track elapsed time with start, pause, and reset controls.</p>
+                <div class="stopwatch-display" id="stopwatch-display">00:00:00</div>
+                <div class="button-row"><button class="small-button accent" id="watch-start">Start</button><button class="small-button" id="watch-reset">Reset</button></div>
+            </article>
+
+            <article class="project-card" id="temperature-card">
+                <div class="card-top"><span class="project-number">04</span><span class="tag">CONVERTER</span></div>
+                <h3>Temperature converter</h3>
+                <p>Convert Celsius and Fahrenheit instantly.</p>
+                <div class="input-row"><input id="temperature-input" type="number" value="25" aria-label="Temperature value"><select id="temperature-unit" aria-label="Temperature unit"><option value="c">°C</option><option value="f">°F</option></select></div>
+                <div class="result-box" id="temperature-result">25°C = 77.0°F</div>
+            </article>
+
+            <article class="project-card" id="dice-card">
+                <div class="card-top"><span class="project-number">05</span><span class="tag">RANDOMNESS</span></div>
+                <h3>Dice roller</h3>
+                <p>Roll up to three dice and see the total.</p>
+                <div class="input-row"><label for="dice-count">Number of dice</label><input id="dice-count" type="number" min="1" max="3" value="2"></div>
+                <div class="dice-results" id="dice-results"><span>?</span><span>?</span></div>
+                <button class="primary-button full" id="roll-dice">Roll dice <span>↗</span></button>
+            </article>
+
+            <article class="project-card game-card" id="rps-card">
+                <div class="card-top"><span class="project-number">06</span><span class="tag">GAME</span></div>
+                <h3>Rock paper scissors</h3>
+                <p>Challenge the computer in a quick round.</p>
+                <div class="rps-buttons"><button data-choice="rock" aria-label="Rock">✊</button><button data-choice="paper" aria-label="Paper">✋</button><button data-choice="scissors" aria-label="Scissors">✌</button></div>
+                <div class="game-result" id="rps-result">Choose your move</div>
+                <div class="score-line"><span>You <b id="player-score">0</b></span><span>Computer <b id="computer-score">0</b></span></div>
+            </article>
+
+            <article class="project-card" id="password-card">
+                <div class="card-top"><span class="project-number">07</span><span class="tag">SECURITY</span></div>
+                <h3>Password generator</h3>
+                <p>Create a strong random password with your preferred length.</p>
+                <div class="password-output"><input id="password-output" type="text" readonly aria-label="Generated password"><button id="copy-password" title="Copy password">▣</button></div>
+                <div class="range-line"><label for="password-length">Length <strong id="password-length-value">14</strong></label><input id="password-length" type="range" min="6" max="30" value="14"></div>
+                <button class="primary-button full" id="generate-password">Generate password <span>↗</span></button>
+            </article>
+
+            <article class="project-card" id="guess-card">
+                <div class="card-top"><span class="project-number">08</span><span class="tag">GAME</span></div>
+                <h3>Number guessing game</h3>
+                <p>Find the secret number between 1 and 100 in as few attempts as possible.</p>
+                <div class="input-row"><input id="guess-input" type="number" min="1" max="100" placeholder="Enter 1–100"><button class="small-button accent" id="submit-guess">Guess</button></div>
+                <div class="game-result left" id="guess-message">I am thinking of a number...</div>
+                <button class="text-button" id="new-guess-game">Start a new game ↺</button>
+            </article>
+
+            <article class="project-card" id="random-card">
+                <div class="card-top"><span class="project-number">09</span><span class="tag">RANDOM</span></div>
+                <h3>Random number generator</h3>
+                <p>Generate three random numbers between 1 and 10.</p>
+                <div class="random-numbers" id="random-numbers"><span>?</span><span>?</span><span>?</span></div>
+                <button class="primary-button full" id="generate-numbers">Generate numbers <span>↗</span></button>
+            </article>
+
+            <article class="project-card" id="clock-card">
+                <div class="card-top"><span class="project-number">10</span><span class="tag">TIME</span></div>
+                <h3>Live clock</h3>
+                <p>See the current time update every second.</p>
+                <div class="clock-display" id="clock-display">00:00:00</div>
+                <div class="result-box" id="clock-date">Loading date...</div>
+            </article>
+
+            <article class="project-card" id="shuffle-card">
+                <div class="card-top"><span class="project-number">11</span><span class="tag">ARRAYS</span></div>
+                <h3>Array shuffler</h3>
+                <p>Mix the items in an array using the Fisher-Yates algorithm.</p>
+                <div class="array-output" id="array-output">1 · 2 · 3 · 4 · 5</div>
+                <button class="primary-button full" id="shuffle-array">Shuffle array <span>↗</span></button>
+            </article>
+
+            <article class="project-card" id="slider-card">
+                <div class="card-top"><span class="project-number">12</span><span class="tag">SLIDER</span></div>
+                <h3>Color slider</h3>
+                <p>Move through a few colors with the next and previous buttons.</p>
+                <div class="color-slide" id="color-slide">Slide 1</div>
+                <div class="button-row"><button class="small-button" id="previous-slide">← Previous</button><button class="small-button accent" id="next-slide">Next →</button></div>
+            </article>
+
+            <article class="project-card" id="api-card">
+                <div class="card-top"><span class="project-number">13</span><span class="tag">API</span></div>
+                <h3>Pokemon finder</h3>
+                <p>Search a Pokemon using the public Pokemon API.</p>
+                <div class="input-row"><input id="pokemon-name" type="text" placeholder="Try pikachu"><button class="small-button accent" id="find-pokemon">Find</button></div>
+                <div class="pokemon-result" id="pokemon-result">Your result will appear here.</div>
+            </article>
+
+            <article class="project-card" id="check-card">
+                <div class="card-top"><span class="project-number">14</span><span class="tag">BASICS</span></div>
+                <h3>Input checker</h3>
+                <p>Practice reading checkbox and radio button values.</p>
+                <label class="check-line"><input type="checkbox" id="learning-check"> I am learning JavaScript</label>
+                <label class="check-line"><input type="radio" name="level" value="beginner" checked> Beginner</label>
+                <label class="check-line"><input type="radio" name="level" value="intermediate"> Intermediate</label>
+                <button class="primary-button full" id="check-inputs">Check selection <span>↗</span></button>
+                <div class="game-result left" id="check-result">Select an option above.</div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span>FWT MINI PROJECT</span><span>Built with vanilla JavaScript · 2026</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
