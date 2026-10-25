@@ -1,4 +1,4 @@
-#  JavaScript Phase — Complete 
+# JavaScript Phase — Complete
 
 My JavaScript learning journey in code: **15+ small projects** built to get fluent in the language before moving on to TypeScript, React and cross-platform apps (web, mobile, desktop).
 
@@ -64,7 +64,7 @@ Small, focused programs written to build core JavaScript fluency:
 - ✅ JavaScript fundamentals
 - 🔄 Intermediate JS (arrays, objects, async): in progress
 - ⬜ TypeScript
-- ⬜ React
+- 🔄 React: in progress, see [React-JS](https://github.com/Shreyansh-DevHub/React-JS)
 - ⬜ Cross-platform apps (web, mobile, desktop)
 
 ---
