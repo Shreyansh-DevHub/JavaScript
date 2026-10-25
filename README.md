@@ -1,4 +1,4 @@
-# 🟨 JavaScript Phase — Complete ✅
+#  JavaScript Phase — Complete 
 
 My JavaScript learning journey in code: **15+ small projects** built to get fluent in the language before moving on to TypeScript, React and cross-platform apps (web, mobile, desktop).
 
@@ -6,7 +6,7 @@ This repo marks the end of **Phase 1 (JavaScript fundamentals)** on my roadmap.
 
 ---
 
-## 📚 What this repo covers
+## What this repo covers
 
 Small, focused programs written to build core JavaScript fluency:
 
@@ -18,16 +18,16 @@ Small, focused programs written to build core JavaScript fluency:
 
 ---
 
-## 🛠️ Projects built
+## Projects built
 
-### 🎮 Games
+### Games
 | Folder | Description |
 |---|---|
 | [`num-guessing-game`](./num-guessing-game) | Guess the secret number |
 | [`rock-paper-scissors`](./rock-paper-scissors) | Play rock paper scissors against the computer |
 | [`Dice-roller`](./Dice-roller) | Roll virtual dice |
 
-### 🧰 Utilities
+### Utilities
 | Folder | Description |
 |---|---|
 | [`calculator`](./calculator) | Basic calculator |
@@ -37,19 +37,19 @@ Small, focused programs written to build core JavaScript fluency:
 | [`stopwatch`](./stopwatch) | Start, stop and reset stopwatch |
 | [`live-clock`](./live-clock) | Clock that updates in real time |
 
-### 🖼️ UI & interaction
+### UI & interaction
 | Folder | Description |
 |---|---|
 | [`counter-program`](./counter-program) | Counter app: DOM manipulation and event handling |
 | [`image-slider`](./image-slider) | Image slider / carousel |
 
-### 🌐 APIs & mini projects
+### APIs & mini projects
 | Folder | Description |
 |---|---|
 | [`api-integration`](./api-integration) | Fetching and displaying data from external APIs |
 | [`fwt-mini-project`](./fwt-mini-project) | Mini project combining the concepts above |
 
-### 🧠 Fundamentals & DSA
+### Fundamentals & DSA
 | Folder | Description |
 |---|---|
 | [`project-basics`](./project-basics) | Syntax, variables, functions and core JS concepts |
@@ -59,7 +59,7 @@ Small, focused programs written to build core JavaScript fluency:
 
 ---
 
-## 🗺️ Roadmap status
+## Roadmap status
 
 - ✅ JavaScript fundamentals
 - 🔄 Intermediate JS (arrays, objects, async): in progress
@@ -69,7 +69,7 @@ Small, focused programs written to build core JavaScript fluency:
 
 ---
 
-## 👋 About me
+## About me
 
 I'm Shreyansh, a software developer with a cybersecurity focus, building real projects while I learn.
 
